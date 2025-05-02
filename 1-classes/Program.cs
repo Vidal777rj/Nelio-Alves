@@ -33,7 +33,7 @@ if (areaX > areaY)
 }
 */
 
- //* ---------- Com classes ---------- *//
+/* ---------- Com classes ---------- 
 Triangulo x, y;
 
 x = new Triangulo();
@@ -63,12 +63,60 @@ Console.WriteLine($"Área de Y =  {areaY.ToString("F4", CultureInfo.InvariantCul
 
 if (areaX > areaY)
 {
-    Console.WriteLine("A maior área: X");
+   Console.WriteLine("A maior área: X");
 }
 else
 {
-    System.Console.WriteLine("Maior área: Y");
+   System.Console.WriteLine("Maior área: Y");
 }
 
+*/
 
 
+/* Exercicio - Fazer um programa para ler os dados de duas pessoas, depois mostrar o nome da pessoa mais velha 
+
+Console.WriteLine("Digite o nome da primeira pessoa: ");
+string nome1 = Console.ReadLine();
+
+Console.WriteLine("Digite a idade da primeira pessoa: ");
+int idade1 = int.Parse(Console.ReadLine());
+Pessoa pessoa1 = new Pessoa(nome1, idade1);
+
+Console.WriteLine("Digite o nome da segunda pessoa: ");
+string nome2 = Console.ReadLine();
+
+Console.WriteLine("Digite a idade da segunda pessoa: ");
+int idade2 = int.Parse(Console.ReadLine());
+Pessoa pessoa2 = new Pessoa(nome2, idade2);
+
+Pessoa maisVelha = Pessoa.PessoaMaisVelha(pessoa1, pessoa2);
+Console.WriteLine($"Pessoa mais velha {maisVelha.Nome}");
+
+*/
+
+Produto p = new()
+{
+
+};
+
+Console.WriteLine("Entre os dados de produto");
+Console.Write("Nome: ");
+p.Nome = Console.ReadLine();
+
+Console.Write("Preço: ");
+p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+Console.Write("Quantidade no estoque: ");
+p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+
+Console.WriteLine($"Dados do produto {p.Nome}, R$ {p.Preco}, {p.Quantidade} ");
+
+Console.Write("Digite o número de produtos a ser adicionado: ");
+int qte = int.Parse(Console.ReadLine());
+p.AdicionarProduto(qte);
+
+Console.WriteLine("Digite a quantidade a ser removido");
+int qteRemover = int.Parse(Console.ReadLine());
+p.RevoverProduto(qteRemover);
+Console.WriteLine($"Dados atualizado {p}");
