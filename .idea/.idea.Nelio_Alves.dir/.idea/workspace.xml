@@ -10,12 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd454b21-2e51-4d9e-8a66-72131b9789b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_memoria/Point.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-classes/1-classes.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-classes/Pessoa.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-classes/Produto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-classes/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-classes/Triangulo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3_memoria/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746252917762</updated>
       <workItem from="1746252917764" duration="2076000" />
-      <workItem from="1746323427428" duration="3227000" />
+      <workItem from="1746323427428" duration="3656000" />
     </task>
     <servers />
   </component>
