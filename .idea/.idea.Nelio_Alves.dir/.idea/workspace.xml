@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd454b21-2e51-4d9e-8a66-72131b9789b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/3_memoria/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/3_memoria/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/3_memoria.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Calculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Passageiro.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Point.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_memoria/Program.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,9 @@
     &quot;accountId&quot;: &quot;7b0bd8ee-ce7c-40c2-9551-d8638d8c0cbf&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.3_memoria.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "XThreadsFramesViewSplitterKey": "0.37605396",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.3_memoria.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.37605396&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.3_memoria">
     <configuration name="1-classes" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -128,6 +136,7 @@
       <updated>1746252917762</updated>
       <workItem from="1746252917764" duration="2076000" />
       <workItem from="1746323427428" duration="3656000" />
+      <workItem from="1746382400305" duration="42000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 ﻿
 using System.Globalization;
+
 using _3_memoria;
-using Point = _3_memoria.Point;
 
 /*
 A struct (estrutura) em programação é um tipo de dado composto que agrupa variáveis sob um mesmo nome. Essas variáveis
@@ -129,4 +129,48 @@ for (int i = 0; i < nomes.Length; i++)
 }
 */
 
-/*Lista*/
+/*Lista
+
+List<string> listaNomes = new List<string>();
+listaNomes.Add("Michel Vidal de Oliveira");
+listaNomes.Add("Mikaella Vidal de Oliveira");
+listaNomes.Add("João de Oliveira");
+listaNomes.Add("Lucimar");
+
+
+
+foreach (string i in listaNomes)
+{
+    System.Console.WriteLine(i);
+}
+
+System.Console.WriteLine(listaNomes.Count);
+string buscaNome = listaNomes.Find(x => x[0] == 'M');
+string buscaUltimoNome = listaNomes.FindLast(x => x[0] == 'M');
+System.Console.WriteLine(buscaNome);
+System.Console.WriteLine(buscaUltimoNome);
+
+System.Console.Write(" -- Digite o nome a ser removido da lista: ");
+string nomeRemover = Console.ReadLine();
+
+listaNomes.Remove(nomeRemover);
+
+foreach (string nomes in listaNomes)
+{
+    System.Console.WriteLine(nomes);
+}
+
+System.Console.Write(" -- Digite a letra a ser removido da lista: ");
+char nomeRemoverPelaLetra = char.Parse(Console.ReadLine());
+
+listaNomes.RemoveAll(x => x[0] == nomeRemoverPelaLetra);
+
+foreach (string nomes in listaNomes)
+{
+    System.Console.WriteLine(nomes);
+};
+*/
+
+/*Matrizes*/
+
+
