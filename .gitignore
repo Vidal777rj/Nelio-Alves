@@ -22,6 +22,9 @@ appsettings.json
 # VS Code
 .vscode/
 
+#idea
+.idea
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
