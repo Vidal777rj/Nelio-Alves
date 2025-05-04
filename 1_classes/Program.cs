@@ -94,6 +94,7 @@ Console.WriteLine($"Pessoa mais velha {maisVelha.Nome}");
 
 */
 
+/*
 Produto p = new()
 {
 
@@ -120,3 +121,4 @@ Console.WriteLine("Digite a quantidade a ser removido");
 int qteRemover = int.Parse(Console.ReadLine());
 p.RevoverProduto(qteRemover);
 Console.WriteLine($"Dados atualizado {p}");
+*/
